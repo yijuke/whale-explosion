@@ -11,6 +11,6 @@ public class FirstFabricMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world! and I hate monkeys");
+		LOGGER.info("Hello Fabric world!");
 	}
 }

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "first-fabric-mod",
+	"version": "${version}",
+	"name": "First Fabric Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"jayden (yijuke)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/first-fabric-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jayden.firstfabricmod.FirstFabricMod"
+		],
+		"client": [
+			"jayden.firstfabricmod.FirstFabricModClient"
+		],
+		"fabric-datagen": [
+			"jayden.firstfabricmod.FirstFabricModDataGenerator"
+		]
+	},
+	"mixins": [
+		"first-fabric-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

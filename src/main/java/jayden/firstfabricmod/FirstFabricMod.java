@@ -1,5 +1,6 @@
 package jayden.firstfabricmod;
 
+import jayden.firstfabricmod.item.ModItemGroups;
 import jayden.firstfabricmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,7 +13,7 @@ public class FirstFabricMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 	}
 }

@@ -1,3 +1,5 @@
 {
-  "item.firstfabricmod.kfc": "$5 Big Chicken Sandwich"
+  "item.firstfabricmod.kfc": "$5 Big Chicken Sandwich",
+
+  "itemgroup.kfc": "KFC"
 }
